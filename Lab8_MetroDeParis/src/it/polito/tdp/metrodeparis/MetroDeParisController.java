@@ -30,6 +30,8 @@ public class MetroDeParisController {
     @FXML
     private TextArea txtResult;
 
+	private Model model;
+
     @FXML
     void doCalcolaPercorso(ActionEvent event) {
 
@@ -45,7 +47,7 @@ public class MetroDeParisController {
     }
 
 	public void setModel(Model model) {
-		// TODO Auto-generated method stub
+		this.model = model;
 		
 	}
 }
