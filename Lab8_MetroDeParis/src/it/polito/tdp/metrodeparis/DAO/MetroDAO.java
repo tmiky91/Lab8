@@ -33,6 +33,7 @@ public class MetroDAO {
 				Fermata f = new Fermata(id, nome, coordX, coordY);
 				fermate.add(f);
 			}
+			conn.close();
 
 			return fermate;
 
